@@ -8,12 +8,12 @@
   <title>DjangoCRM</title>
 </head>
 <body>
-<a href="/leads/create">Create a new Lead</a>
+<a href="{% url 'leads:lead-create' %}">Create a new Lead</a>
 <hr>
 <h1>All of our Leads</h1>
 {% for lead in leads %}
 <div>
-   <a href="/leads/{{lead.pk}}">{{ lead }}</a>
+   <a href="{% url 'leads:lead-detail' lead.pk %}">{{ lead }}</a>
 </div>
 {% endfor %}
 
