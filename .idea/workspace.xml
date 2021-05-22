@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc12502-03c2-4211-a602-33bf26b3aa67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/scripts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leads/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/leads/lead_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/lead_create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/leads/lead_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/lead_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/leads/lead_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/lead_list.html" afterDir="false" />
