@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from .models import Lead, Agent
-from .forms import LeadForm
+from .forms import LeadModelForm
 
 def lead_list(request):
     leads = Lead.objects.all()
@@ -20,16 +20,16 @@ def lead_detail(request, pk):
 
 
 def lead_create(request):
-    form = LeadForm()
-    if request.method == "POST":
-        form = LeadForm(request.POST)
-        if form.is_valid():
-            first_name = form.cleaned_data['first_name']
-            last_name = form.cleaned_data['last_name']
-            age = form.cleaned_data['age']
-            agent = Agent.objects.first()
+    form = LeadModelForm()
 
-            Lead.objects.create(first_name=first_name, last_name=last_name, age=age, agent=agent)
+    if request.method == "POST":
+        form = LeadModelForm(request.POST)
+
+        # check if form is valid
+        if form.is_valid():
+            form.save()
+
+            # redirect to leads list
             return redirect('/leads')
 
     context = {
@@ -37,3 +37,29 @@ def lead_create(request):
     }
 
     return render(request, 'leads/lead_create.html', context=context)
+
+
+def lead_update(request, pk):
+    lead = Lead.objects.get(id=pk)
+    form = LeadModelForm(instance=lead)
+    if request.method == "POST":
+        form = LeadModelForm(request.POST, instance=lead)
+
+        if form.is_valid():
+            form.save()
+
+            # redirect to
+            return redirect(f'/leads/{pk}')
+
+
+    context = {
+        "form": form,
+        "lead": lead
+    }
+    return render(request, 'leads/lead_update.html', context=context)
+
+
+def lead_delete(request, pk):
+    lead = Lead.objects.get(id=pk)
+    lead.delete()
+    return redirect('/leads')
