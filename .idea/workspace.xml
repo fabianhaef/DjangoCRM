@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc12502-03c2-4211-a602-33bf26b3aa67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/agents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leads/migrations/0002_auto_20210622_2150.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/agents/agent_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/agents/agent_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/agents/agent_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/agents/agent_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/agents/agent_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/leads/assign_agents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leads/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoCRM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoCRM/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoCRM/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoCRM/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leads/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leads/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leads/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leads/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leads/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leads/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leads/lead_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/lead_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +67,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/agents" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\leads\tests" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\static\css" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\static\js" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates\leads" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates\agents" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates" />
     </key>
   </component>
@@ -69,14 +103,22 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="404" y="179" key="#Python/0.0.1620.1040/632.-1080.1920.1040@0.0.1620.1040" timestamp="1620778539081" />
+    <state x="566" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624311377073">
+      <screen x="0" y="0" width="1620" height="1040" />
+    </state>
+    <state x="566" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1620.1040/632.-1080.1920.1040@0.0.1620.1040" timestamp="1624311377073" />
     <state x="591" y="275" key="FileChooserDialogImpl" timestamp="1622542399303">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="591" y="275" key="FileChooserDialogImpl/0.0.1620.1040/632.-1080.1920.1040@0.0.1620.1040" timestamp="1622542399303" />
-    <state x="618" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621784980777">
+    <state x="618" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624388733343">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state x="618" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1620.1040/632.-1080.1920.1040@0.0.1620.1040" timestamp="1621717483676" />
+    <state x="618" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1620.1040/632.-1080.1920.1040@0.0.1620.1040" timestamp="1624388733343" />
     <state x="618" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1620.1040@0.0.1620.1040" timestamp="1621784980777" />
+    <state x="473" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1624393994692">
+      <screen x="0" y="0" width="1620" height="1040" />
+    </state>
+    <state x="473" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1620.1040/632.-1080.1920.1040@0.0.1620.1040" timestamp="1624393994692" />
   </component>
 </project>
