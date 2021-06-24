@@ -2,40 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc12502-03c2-4211-a602-33bf26b3aa67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/agents/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leads/migrations/0002_auto_20210622_2150.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agents/agent_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agents/agent_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agents/agent_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agents/agent_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agents/agent_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/leads/assign_agents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoCRM/.template.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leads/migrations/0003_auto_20210623_1836.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leads/migrations/0004_category_organisation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leads/migrations/0005_alter_category_organisation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leads/migrations/0006_alter_lead_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/leads/category_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/leads/category_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/leads/lead_category_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoCRM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoCRM/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoCRM/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoCRM/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leads/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leads/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leads/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leads/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leads/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leads/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/leads/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leads/assign_agents.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/assign_agent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/leads/lead_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/lead_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leads/lead_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leads/lead_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +54,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/agents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DjangoCRM" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\DjangoCRM" />
+      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates\agents" />
+      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\leads\tests" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\static\css" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\static\js" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates\leads" />
-      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates\agents" />
       <recent name="C:\Users\fabia\PycharmProjects\DjangoCRM\templates" />
     </key>
   </component>

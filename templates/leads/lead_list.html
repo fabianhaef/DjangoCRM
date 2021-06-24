@@ -9,6 +9,9 @@
           Leads
         </h1>
       </div>
+      <div class="">
+        <a href="{% url 'leads:category-list' %}">View categories</a>
+      </div>
       {% if request.user.is_organisor %}
       <div>
         <a class="text-gray-500 hover:text-blue-500" href="{% url 'leads:lead-create' %}">Create a new lead</a>

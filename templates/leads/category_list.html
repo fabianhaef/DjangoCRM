@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+ {% block content %}
+<h3>Category List</h3>
+<h4>These categories exist</h4>
+<ul>>
+  {% for category in category_list %}
+  <li>{{category.name}}
+    <a href="{% url 'leads:category-detail' category.pk %}">Detail</a>
+  </li>
+  
+  {{unassigned_lead_count}}
+  {% endfor %}
+</ul>
+
+{% endblock content %}
